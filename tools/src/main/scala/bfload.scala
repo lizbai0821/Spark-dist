@@ -3,6 +3,7 @@
   */
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.types.{IntegerType, StringType, StructField, StructType}
 import org.slf4j.LoggerFactory
 
 object BFDataLoad {
@@ -42,6 +43,21 @@ object BFDataLoad {
       .map(_.split("\\|"))
       .map(attributes => new Streaming(attributes))
       .toDF()
+
+    // by chris read csv
+//    val customSchema = StructType(Array(
+//      StructField("year", IntegerType, true),
+//      StructField("make", StringType, true),
+//      StructField("model", StringType, true),
+//      StructField("comment", StringType, true),
+//      StructField("blank", StringType, true)))
+//
+//    val df = spark.read
+//      .format("csv")
+//      .option("header", "true") // Use first line of all files as header
+//      .option("inferSchema", "true") // Automatically infer data types
+//      .schema(customSchema)
+//      .load(input)
 
     //save as parquet
     dataDF.write.partitionBy("last_msisdn").parquet(output)
