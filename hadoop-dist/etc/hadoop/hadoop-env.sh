@@ -68,3 +68,5 @@ fi
 # JAVA_LIBRARY_PATH={{JAVA_LIBRARY_PATH}}
 
 # export HADOOP_CLIENT_OPTS="-Xmx268435456 -Djava.net.preferIPv4Stack=true $HADOOP_CLIENT_OPTS"
+
+export JAVA_HOME=/opt/spark_test/java-dist/jdk1.8.0_111
