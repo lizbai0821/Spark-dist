@@ -7,20 +7,8 @@
     <value>file:///dfs/nn</value>
   </property>
   <property>
-    <name>dfs.namenode.servicerpc-address</name>
-    <value>dbg11:8022</value>
-  </property>
-  <property>
-    <name>dfs.https.address</name>
-    <value>dbg11:50470</value>
-  </property>
-  <property>
     <name>dfs.https.port</name>
     <value>50470</value>
-  </property>
-  <property>
-    <name>dfs.namenode.http-address</name>
-    <value>dbg11:50070</value>
   </property>
   <property>
     <name>dfs.replication</name>
