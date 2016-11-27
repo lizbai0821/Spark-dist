@@ -1,0 +1,25 @@
+[0m[[0minfo[0m] [0mPackaging /opt/spark_test/tools/target/scala-2.11/benchmarking_2.11-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	TestCase$.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/spark_test/tools/target/scala-2.11/classes/TestCase$.class[0m
+[0m[[0mdebug[0m] [0m	BFDataLoad.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/spark_test/tools/target/scala-2.11/classes/BFDataLoad.class[0m
+[0m[[0mdebug[0m] [0m	BFDataLoad$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/spark_test/tools/target/scala-2.11/classes/BFDataLoad$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	BFDataLoad$.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/spark_test/tools/target/scala-2.11/classes/BFDataLoad$.class[0m
+[0m[[0mdebug[0m] [0m	BFDataLoad$$typecreator2$1.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/spark_test/tools/target/scala-2.11/classes/BFDataLoad$$typecreator2$1.class[0m
+[0m[[0mdebug[0m] [0m	BFDataLoad$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/spark_test/tools/target/scala-2.11/classes/BFDataLoad$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	TransferUtil$.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/spark_test/tools/target/scala-2.11/classes/TransferUtil$.class[0m
+[0m[[0mdebug[0m] [0m	TestCase.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/spark_test/tools/target/scala-2.11/classes/TestCase.class[0m
+[0m[[0mdebug[0m] [0m	Streaming$.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/spark_test/tools/target/scala-2.11/classes/Streaming$.class[0m
+[0m[[0mdebug[0m] [0m	TransferUtil.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/spark_test/tools/target/scala-2.11/classes/TransferUtil.class[0m
+[0m[[0mdebug[0m] [0m	Streaming.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/spark_test/tools/target/scala-2.11/classes/Streaming.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
