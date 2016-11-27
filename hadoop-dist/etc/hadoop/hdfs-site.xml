@@ -4,15 +4,15 @@
 <configuration>
   <property>
     <name>dfs.namenode.name.dir</name>
-    <value>file:///dfs/nn</value>
+    <value>file:///opt/spark_test/dfs/nn</value>
   </property>
   <property>
-    <name>dfs.https.port</name>
-    <value>50470</value>
+    <name>dfs.datanode.data.dir</name>
+    <value>file:///opt/spark_test/dfs/dn</value>
   </property>
   <property>
     <name>dfs.replication</name>
-    <value>3</value>
+    <value>1</value>
   </property>
   <property>
     <name>dfs.blocksize</name>
@@ -36,7 +36,7 @@
   </property>
   <property>
     <name>dfs.client.read.shortcircuit</name>
-    <value>false</value>
+    <value>true</value>
   </property>
   <property>
     <name>dfs.domain.socket.path</name>

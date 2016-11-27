@@ -21,9 +21,9 @@ export HADOOP_OPTS="-Djava.net.preferIPv4Stack=true $HADOOP_OPTS"
 # export HADOOP_OPTS=-server
 
 # Command specific options appended to HADOOP_OPTS when specified
-export HADOOP_NAMENODE_OPTS="-server -XX:ParallelGCThreads=8 -XX:+UseConcMarkSweepGC -XX:NewSize=512m -XX:MaxNewSize=512m -Xms4096m -Xmx4096m -XX:PermSize=128m -XX:MaxPermSize=256m ${HADOOP_NAMENODE_OPTS}"
+export HADOOP_NAMENODE_OPTS="-server -XX:NewSize=512m -XX:MaxNewSize=512m -Xms4096m -Xmx4096m -XX:PermSize=128m -XX:MaxPermSize=256m ${HADOOP_NAMENODE_OPTS}"
 # export HADOOP_SECONDARYNAMENODE_OPTS="-Dcom.sun.management.jmxremote $HADOOP_SECONDARYNAMENODE_OPTS"
-export HADOOP_DATANODE_OPTS="-server -XX:ParallelGCThreads=8 -XX:+UseConcMarkSweepGC -Xms1024m -Xmx1024m -XX:PermSize=128m -XX:MaxPermSize=256m ${HADOOP_NAMENODE_OPTS}"
+export HADOOP_DATANODE_OPTS="-server -Xms1024m -Xmx1024m -XX:PermSize=128m -XX:MaxPermSize=256m ${HADOOP_NAMENODE_OPTS}"
 # export HADOOP_BALANCER_OPTS="-Dcom.sun.management.jmxremote $HADOOP_BALANCER_OPTS"
 # export HADOOP_JOBTRACKER_OPTS="-Dcom.sun.management.jmxremote $HADOOP_JOBTRACKER_OPTS"
 # export HADOOP_TASKTRACKER_OPTS=
