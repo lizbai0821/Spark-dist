@@ -1,6 +1,9 @@
 /**
   * Created by lizbai on 16/10/16.
   */
+
+package chris;
+
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.types.{IntegerType, StringType, StructField, StructType}
